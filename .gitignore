@@ -1,0 +1,45 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Python virtual environments (ANYWHERE)
+# =========================
+venv/
+.venv/
+env/
+.ENV/
+Environments/
+ENV/
+pythonenv/
+pipenv/
+.poetry/
+
+# =========================
+# Virtualenv metadata
+# =========================
+pyvenv.cfg
+
+# =========================
+# Docker
+# =========================
+*.log
+docker-compose.override.yml
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
