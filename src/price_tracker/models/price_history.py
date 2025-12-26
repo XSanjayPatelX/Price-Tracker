@@ -1,7 +1,14 @@
 from dataclasses import dataclass
 import datetime
+from typing import Optional
 
+@dataclass
 class PriceHistory:
-    product_id: int
-    price: float
+    # Default
+    id: int
     collected_at: datetime.datetime
+
+    # Pricing
+    current_price: float           # Price of product, whether on sale or not
+    percentage_off: Optional[int] | None     # Percentage off product
+    original_price: Optional[float] | None   # Original price if on sale
