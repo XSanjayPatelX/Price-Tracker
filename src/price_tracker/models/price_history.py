@@ -10,5 +10,5 @@ class PriceHistory:
 
     # Pricing
     current_price: float           # Price of product, whether on sale or not
-    percentage_off: Optional[int] | None     # Percentage off product
     original_price: Optional[float] | None   # Original price if on sale
+    percentage_off: Optional[int] | None     # Percentage off product
