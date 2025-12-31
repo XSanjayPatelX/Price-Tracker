@@ -9,10 +9,10 @@ class Product:
     url: str
     retailer: str                  # Retailer, for future cases
     
-    # Pricing
-    current_price: float           # Price of product, whether on sale or not
-    percentage_off: Optional[int] | None     # Percentage off product
-    original_price: Optional[float] | None   # Original price if on sale
+    # Pricing - Not needed but keeping just in case
+    # current_price: float           # Price of product, whether on sale or not
+    # original_price: Optional[float] | None   # Original price if on sale
+    # percentage_off: Optional[int] | None     # Percentage off product
     
     # Reviews
     review_rating: Optional[float] | None    # Rating, e.g. 4.5/5

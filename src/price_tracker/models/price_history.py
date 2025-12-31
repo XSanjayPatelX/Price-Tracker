@@ -5,7 +5,8 @@ from typing import Optional
 @dataclass
 class PriceHistory:
     # Default
-    id: int
+    id: Optional[int]           # Primary key
+    product_id: int         # Foreign key
     collected_at: datetime.datetime
 
     # Pricing
